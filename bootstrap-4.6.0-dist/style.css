@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(./photos/photo-1611560396900-7a3c64428624.jpg);
+  background-size: cover;
+}
+
+.navbar img {
+  height: 40px;
+  width: 100px;
+}
+.navbar ul li a {
+  color: white;
+}
+.navbar ul li a:hover {
+  color: red;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+.content p {
+  font-weight: 100;
+  line-height: 25px;
+  margin: 20px auto;
+  color: black;
+}
+.container {
+  margin-top: 500px;
+}
+.navbar ul li a {
+  font-size: large;
+  font-weight: bold;
+}
